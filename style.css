@@ -1,0 +1,204 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul li{
+    list-style:  none;
+}
+header{
+    background-color: #04090cbf;
+    height: 55px;
+}
+h1{
+    font-size: 50px;
+}
+.logo img {
+    width: 65px;
+    height: auto;
+    padding: 2px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 5px;
+}
+.nav_bar{
+    float: right;
+}
+.nav_bar li{
+    display: inline-block;
+    margin-left: 0px;
+}
+.nav_bar li a{
+    color: white;
+   text-decoration: none;
+   padding: 5px 15px;
+   border-radius: 5px;
+   display: inline-block;
+}
+.container{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.food_heading{
+    color: orange;
+}
+span.change {
+    color: #9308ab;
+}
+.helf_width{
+    width: 50%;
+    padding-left: 5%;
+}
+.helf_width img{
+    width: 90%;
+}
+.link_button{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #009688db, #ff5c3f);
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.helf_width p{
+  margin-bottom: 30px;
+}
+#abotu_me{
+    background-image: url(img/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discption {
+    margin-top: 100px;
+}
+.title{
+    margin: 0 auto;
+    text-align: center;
+}
+.title p{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.heading h2{
+    text-align: center;
+}
+.heading p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.recipies-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .recipies {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .recipies-item img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .recipies-item {
+    padding: 15px;
+    box-shadow: 0 0 5px 5px rgb(192, 191, 191);
+    margin: 15px;
+    border-radius: 20px;
+  }
+#Contact_me{
+    background-image: url(img/contact_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  .contact {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .contact .title h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  input[type="text"],
+  [type="Email"],
+  textarea {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid rgb(170, 169, 169);
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  .contact_form {
+    padding: 15px 100px;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    background: repeating-linear-gradient(45deg, #90bda6b8, #0000004a 100px);
+  }
+  
+#socal_link_flw{
+    background-image: url(img/socal_bg.jpg);
+    background-size: cover;
+}
+.follwers{
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    margin-top:100px;
+    box-shadow: 5px 5px 20px 5px #ada8a8;
+}
+.social-followers {
+    display: flex;
+    width: 75%;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.specific-item-followers {
+    margin: 20px 80px;
+    text-align: center;
+}
+
+h1.followers-amount {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 6% 0px;
+}
+
+span.social-media-name {
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0 2px;
+}
+footer{
+    background: #010b10d4;
+    padding: 10px;
+}
+.footer_heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.footer_name{
+    color: orange;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.nework{
+    color: #9e9e9e ;
+}
